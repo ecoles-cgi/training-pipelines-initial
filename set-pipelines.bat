@@ -1,1 +1,3 @@
-./set-pipeline.bat lite "C:\My_Data\Git\Cloud Foundry\training-pipelines-initial\application\pipeline.yml" "C:\My_Data\Git\Cloud Foundry\company-initial\ci\config.yml" "c:\My_Data\Git\Cloud Foundry\credentials.yml" initial-company
+call ./set-pipeline.bat lite "C:\My_Data\Git\Cloud Foundry\training-pipelines-initial\application\pipeline.yml" "C:\My_Data\Git\Cloud Foundry\company-initial\ci\config.yml" "c:\My_Data\Git\Cloud Foundry\credentials.yml" initial-company
+call ./set-pipeline.bat lite "C:\My_Data\Git\Cloud Foundry\training-pipelines-initial\application\pipeline.yml" "C:\My_Data\Git\Cloud Foundry\roster-gradle\ci\config.yml" "c:\My_Data\Git\Cloud Foundry\credentials.yml" roster-gradle
+call ./set-pipeline.bat lite "C:\My_Data\Git\Cloud Foundry\training-pipelines-initial\application\pipeline.yml" "C:\My_Data\Git\Cloud Foundry\config-server\ci\config.yml" "c:\My_Data\Git\Cloud Foundry\credentials.yml" config-server
