@@ -1,0 +1,1 @@
+./set-pipeline.bat lite "C:\My_Data\Git\Cloud Foundry\training-pipelines-initial\application\pipeline.yml" "C:\My_Data\Git\Cloud Foundry\company-initial\ci\config.yml" "c:\My_Data\Git\Cloud Foundry\credentials.yml" initial-company
